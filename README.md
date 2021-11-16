@@ -21,6 +21,6 @@ steps:
     commands:
       - ./bin/command1
     plugins:
-      - ssh://git@github.com/compono/monorepo-checkout-buildkite-plugin.git:
+      - https://github.com/runlevel5/monorepo-checkout-buildkite-plugin.git:
           folder: "projectA"
 ```

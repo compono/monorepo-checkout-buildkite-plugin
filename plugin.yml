@@ -1,0 +1,10 @@
+name: Monorepo checkout plugin
+description: A simple plugin to change BUILDKITE_CHECKOUT_PATH to a folder inside a monorepo
+author: https://github.com/runlevel5
+configuration:
+  properties:
+    folder:
+      type: string
+  required:
+    - folder
+  additionalProperties: false
